@@ -1,6 +1,9 @@
 import Header from './Header'
 import Hero from './Hero'
 import About from './About'
+import Experience from './Experience'
+import Works from './Works'
+import Contact from './Contact'
 
 export default function App() {
   return (
@@ -9,7 +12,9 @@ export default function App() {
       <main>
         <Hero />
         <About />
-        {/* Next: Experience, Works, Contact */}
+        <Experience />
+        <Works />
+        <Contact />
       </main>
     </>
   )

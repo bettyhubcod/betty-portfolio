@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useState } from 'react'
+import { extra } from './strings'
 
 const dict = {
   en: {
@@ -45,6 +46,6 @@ export function I18nProvider({ children }) {
     document.documentElement.lang = lang
     try { localStorage.setItem('lang', lang) } catch {}
   }, [lang])
-  const t = (key) => dict[lang][key]
+     const t = (key) => dict[lang][key] ?? extra[lang][key]
   return <Ctx.Provider value={{ lang, setLang, t }}>{children}</Ctx.Provider>
 }
