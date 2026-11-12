@@ -36,7 +36,10 @@ body {
   background: radial-gradient(circle, #2e080c, transparent 70%);
   animation: drift-c 22s ease-in-out infinite alternate;
 }
+
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
 @keyframes drift-a { to { transform: translate(20vw, 14vh) scale(1.25); } }
 @keyframes drift-b { to { transform: translate(-22vw, -12vh) scale(1.15); } }
 @keyframes drift-c { to { transform: translate(-12vw, 10vh) scale(1.4); } }
 @media (prefers-reduced-motion: reduce) { .glow { animation: none; } }
+@media (max-width: 767px) { .glow { filter: blur(60px); } }

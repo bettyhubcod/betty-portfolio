@@ -13,7 +13,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <section id="home" className="relative flex min-h-screen items-center justify-center overflow-hidden px-6">
+    <section id="home" className="relative flex min-h-svh items-center justify-center overflow-hidden px-6">
       <div className="glow glow-a" />
       <div className="glow glow-b" />
       <div className="glow glow-c" />

@@ -2,9 +2,9 @@ import { useState } from 'react'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa6'
 import { useI18n } from './i18n'
 
-// 1) Create a free form at formspree.io and paste its ID here.
-const ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID'
-// 2) Check your profile links.
+
+const ENDPOINT = 'https://formspree.io/f/mvkagkey'
+
 const socials = [
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/mame-betty-ndiaye-067310443', Icon: FaLinkedinIn },
   { label: 'GitHub', href: 'https://github.com/bettyhubcod', Icon: FaGithub },
@@ -73,4 +73,6 @@ export default function Contact() {
       <p className="mt-16 border-t border-white/10 pt-6 text-center text-xs tracking-[0.2em] text-cream/40">© 2026 Betty Ndiaye</p>
     </section>
   )
+
+  
 }
