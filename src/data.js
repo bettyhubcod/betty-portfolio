@@ -33,36 +33,95 @@ export const projects = [
   {
     id: "mma",
     title: "MMA Los Leones",
+    image: "/projects/mma.jpg",
     status: "completed",
-    url: "",
-    tech: ["Next.js", "Laravel", "PostgreSQL", "next-intl"],
+    url: "https://www.leonesmma.com/",
+    tech: ["Next.js", "Laravel", "PostgreSQL"],
     summary: {
-      en: "Bilingual (FR/EN) website for an MMA club, with membership applications reviewed and validated by admins before they appear on the site.",
-      fr: "Site bilingue (FR/EN) pour un club de MMA, avec des candidatures de membres vérifiées et validées par des admins avant d’apparaître sur le site.",
+      en: "Bilingual (FR/EN) website for an MMA club, with membership requests including a payment system, reviewed and approved by admins before appearing on the site.",
+      fr: "Site bilingue (FR/EN) pour un club de MMA, avec des demandes d’adhésion comprenant un systeme de paiement examinées et validées par des admins avant qu’elles n’apparaissent sur le site.",
+    },
+    features: {
+      en: [
+        "public page presenting the MMA club",
+        "membership form with payment",
+        "admin section to approve or reject requests",
+        "CRUD for articles and fighters",
+      ],
+      fr: [
+        "page publique qui presente le club mma",
+        "formulaire d’adhésion avec paiement",
+        "partie admin pour valider ou refuser les demandes ",
+        "Crud des articles et des fighters",
+      ],
+    },
+    impact: {
+      en: "Your impact sentence.",
+      fr: "ce systeme a permis au client de pouvoir suivre son club , ses fighters et avoir une meilleure visibilité.",
     },
   },
   {
     id: "lesupreme",
     title: "Le Suprême",
+    image: "/projects/lesupreme.jpg",
     status: "completed",
-    url: "",
-    tech: ["React", "Vite", "React Router", "Vercel"],
+    url: "https://le-supreme-website.vercel.app/",
+    tech: ["React"],
     summary: {
       en: "Responsive website for a café chain, built with React and deployed on Vercel, with dynamic filtering and a warm, premium look.",
       fr: "Site responsive pour une chaîne de cafés, développé avec React et déployé sur Vercel, avec filtrage dynamique et un style chaleureux et premium.",
     },
-  },
-  {
-    id: "statdev",
-    title: "StatDev",
-    status: "ongoing",
-    url: "",
-    tech: ["Laravel", "React"],
-    summary: {
-      en: "A job market analytics tool that scrapes job listings to analyze what employers are looking for.",
-      fr: "Un outil d’analyse du marché de l’emploi qui collecte des offres pour analyser ce que recherchent les employeurs.",
+    features: {
+      en: [
+        "public page presenting the MMA club",
+        "membership form with payment",
+        "admin section to approve or reject requests",
+        "CRUD for articles and fighters",
+      ],
+      fr: [
+        "page publique qui presente le club mma",
+        "formulaire d’adhésion avec paiement",
+        "partie admin pour valider ou refuser les demandes ",
+        "Crud des articles et des fighters",
+      ],
+    },
+    impact: {
+      en: "the system allowed the client to track their club, their fighters, and gain better visibility.",
+      fr: "ce systeme a permis au client de pouvoir suivre son club , ses fighters et avoir une meilleure visibilité.",
     },
   },
+
+  {
+    id: "bantogg",
+    title: "Bantogg",
+    image: "/projects/bantogg.jpg",
+    status: "ongoing",
+    url: "https://ban-togg-front.vercel.app/",
+    tech: ["React", "Laravel", "postgreSQL"],
+    summary: {
+      en: "Web application to solve a daily problem, `what should we eat today?`, the app suggests meal ideas based on the ingredients you have at home, but also the suggestions depend on what you have already eaten during the week, to avoid eating the same thing all the time.",
+      fr: "Application web pour resoudre un probleme de tout les jours , `on mange quoi aujourd'hui ?` , l'application propose des idees de plats selon les ingredients que vous avez chez vous , mais egalement les propositions dependent de ce que vous avez deja mangé dans la semaine , pour eviter de manger toujours la meme chose.",
+    },
+    features: {
+      en: [
+       "filter recipes based on the ingredients you have at home",
+       "suggest recipes based on what you have already eaten during the week",
+       "videos on how to prepare the recipes",
+       "to do: add more recipes in the database and improve the UI/UX"
+      ],
+      fr: [
+       "filter les recettes selon les ingredients que vous avez chez vous",
+       "propose des recettes selon ce que vous avez deja mangé dans la semaine",
+       "videos sur la preparation des recettes",
+       "a faire : rajouter plus de recette en BD et ameliorer l'UI/UX"
+      ],
+    },
+    impact: {
+      en: "this application aims to save users time and help them discover new recipes based on the ingredients they have at home.",
+      fr: "cette application a pour but de faire gagner du temps auc utilisateurs et de faire decouvrir de nouvelles recettes selon les ingredients qu'ils ont chez eux.",
+    },
+  },
+
   {
     id: "stagetrack",
     title: "StageTrack",

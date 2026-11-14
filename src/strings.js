@@ -10,6 +10,7 @@ export const extra = {
     'form.name': 'Your name', 'form.email': 'Your email', 'form.message': 'Your message',
     'form.send': 'Send message', 'form.sending': 'Sending…',
     'form.sent': 'Message sent. Thank you!', 'form.error': 'Something went wrong. Please try again.',
+    'works.features': 'Key Features:', 'works.impact': 'Impact:',
   },
   fr: {
     'exp.title': 'mon', 'exp.accent': 'parcours',
@@ -21,5 +22,6 @@ export const extra = {
     'form.name': 'Votre nom', 'form.email': 'Votre email', 'form.message': 'Votre message',
     'form.send': 'Envoyer le message', 'form.sending': 'Envoi…',
     'form.sent': 'Message envoyé. Merci !', 'form.error': 'Une erreur est survenue. Réessayez.',
+    'works.features': 'Fonctionnalités clés :', 'works.impact': 'Impact :',
   },
 }
